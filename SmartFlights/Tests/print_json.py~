@@ -2,8 +2,8 @@ import json
 import pprint
 import urllib2
 
-req = urllib2.Request('https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyAi6T13R5pLSNc_uzwd-0E5VljwzSzN0xw', headers = 'Content-Type: application/json')
-#json_data = open('result_A.json')
+req = urllib2.Request('https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyAi6T13R5pLSNc_uzwd-0E5VljwzSzN0xw', headers = 'Content-Type: application/json', origin_req_host = 'request_A.json')
+json_data = open('result_A.json')
 object = json.load(req)
 
 #pprint.pprint(data)
