@@ -1,0 +1,726 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "O5Jph9XN2Kb0287dd0KF6s",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ATL",
+     "city": "ATL",
+     "name": "Atlanta Hartsfield-Jackson ATL"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SFO",
+     "city": "SFO",
+     "name": "San Francisco International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "ATL",
+     "name": "Atlanta"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SFO",
+     "name": "San Francisco"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "738",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73G",
+     "name": "Boeing 737"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_1",
+     "name": "US Transportation Tax"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "FL",
+     "name": "AirTran Airways, Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UA",
+     "name": "United Airlines, Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD209.00",
+    "id": "WzUby3mU697PIFtanUj3fT001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 285,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 285,
+        "flight": {
+         "carrier": "FL",
+         "number": "363"
+        },
+        "id": "Gi4SbSj+XhPqrxIs",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LHxWTKbOp16dfjPR",
+          "aircraft": "73G",
+          "arrivalTime": "2014-08-21T20:10-04:00",
+          "departureTime": "2014-08-21T12:25-07:00",
+          "origin": "SFO",
+          "destination": "ATL",
+          "originTerminal": "1",
+          "destinationTerminal": "N",
+          "duration": 285,
+          "mileage": 2134,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AkP4RotAl2hhHEmVnbw7Uo1PrWQv7WO0tZfGo7i9nLfs",
+        "carrier": "FL",
+        "origin": "SFO",
+        "destination": "ATL",
+        "basisCode": "RLNUPNR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkP4RotAl2hhHEmVnbw7Uo1PrWQv7WO0tZfGo7i9nLfs",
+        "segmentId": "Gi4SbSj+XhPqrxIs",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD184.19",
+      "saleFareTotal": "USD184.19",
+      "saleTaxTotal": "USD24.81",
+      "saleTotal": "USD209.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD13.81"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO FL ATL 184.19RLNUPNR USD 184.19 END ZP SFO XT 13.81US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-07-08T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD239.00",
+    "id": "WzUby3mU697PIFtanUj3fT002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 275,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 275,
+        "flight": {
+         "carrier": "FL",
+         "number": "636"
+        },
+        "id": "GLunbnrwaX4V40mm",
+        "cabin": "COACH",
+        "bookingCode": "L",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LZfgiqy+35KHN2O+",
+          "aircraft": "73G",
+          "arrivalTime": "2014-08-22T07:00-04:00",
+          "departureTime": "2014-08-21T23:25-07:00",
+          "origin": "SFO",
+          "destination": "ATL",
+          "originTerminal": "1",
+          "destinationTerminal": "N",
+          "duration": 275,
+          "mileage": 2134,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASbzZW71avZGvLZ0qojU2fe8pBPdSxPpGhW2G+/uucUM",
+        "carrier": "FL",
+        "origin": "SFO",
+        "destination": "ATL",
+        "basisCode": "LLNUPNR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASbzZW71avZGvLZ0qojU2fe8pBPdSxPpGhW2G+/uucUM",
+        "segmentId": "GLunbnrwaX4V40mm",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD212.09",
+      "saleFareTotal": "USD212.09",
+      "saleTaxTotal": "USD26.91",
+      "saleTotal": "USD239.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD15.91"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO FL ATL 212.09LLNUPNR USD 212.09 END ZP SFO XT 15.91US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-07-08T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD604.00",
+    "id": "WzUby3mU697PIFtanUj3fT003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 277,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 277,
+        "flight": {
+         "carrier": "UA",
+         "number": "1552"
+        },
+        "id": "GitanoQkXq1dxNjS",
+        "cabin": "COACH",
+        "bookingCode": "E",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LEabVkQGjGlBbz6y",
+          "aircraft": "738",
+          "arrivalTime": "2014-08-21T16:42-04:00",
+          "departureTime": "2014-08-21T09:05-07:00",
+          "origin": "SFO",
+          "destination": "ATL",
+          "originTerminal": "3",
+          "destinationTerminal": "N",
+          "duration": 277,
+          "mileage": 2134,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Atnmbb+P9m2x82jmNM6pVzs9bHp46r1835V+Nc4lAF3M",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "ATL",
+        "basisCode": "EAA00AKN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Atnmbb+P9m2x82jmNM6pVzs9bHp46r1835V+Nc4lAF3M",
+        "segmentId": "GitanoQkXq1dxNjS",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO50LB 23KG AND62LI 158LCM",
+            "count": 0,
+            "description": [
+             "Up to 50 lb/23 kg",
+             "Up to 62 li/158 lcm"
+            ],
+            "subcode": "0GO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "MUSICAL INSTRUMENTS",
+            "count": 0,
+            "subcode": "0F2"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ARCHERY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Archery Equipment"
+            ],
+            "subcode": "0FO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "BOWLING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Bowling Equipment"
+            ],
+            "subcode": "0FS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "FISHING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Fishing Equipment"
+            ],
+            "subcode": "0D6"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "GOLF EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Golf Equipment"
+            ],
+            "subcode": "0DC"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "HOCKEY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Hockey Equipment"
+            ],
+            "subcode": "0F0"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKATEBOARD",
+            "count": 0,
+            "description": [
+             "Skateboard"
+            ],
+            "subcode": "0IS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Ski Equipment"
+            ],
+            "subcode": "0DD"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "WATER SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Water Ski Equipment"
+            ],
+            "subcode": "0G2"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD551.63",
+      "saleFareTotal": "USD551.63",
+      "saleTaxTotal": "USD52.37",
+      "saleTotal": "USD604.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD41.37"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA ATL 551.63EAA00AKN USD 551.63 END ZP SFO XT 41.37US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-07-08T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD604.00",
+    "id": "WzUby3mU697PIFtanUj3fT004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 277,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 277,
+        "flight": {
+         "carrier": "UA",
+         "number": "1481"
+        },
+        "id": "GmEiZ6JIgmPYup4v",
+        "cabin": "COACH",
+        "bookingCode": "E",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LtNQOG33qVmYkKvy",
+          "aircraft": "738",
+          "arrivalTime": "2014-08-21T23:37-04:00",
+          "departureTime": "2014-08-21T16:00-07:00",
+          "origin": "SFO",
+          "destination": "ATL",
+          "originTerminal": "3",
+          "destinationTerminal": "N",
+          "duration": 277,
+          "mileage": 2134,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Atnmbb+P9m2x82jmNM6pVzs9bHp46r1835V+Nc4lAF3M",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "ATL",
+        "basisCode": "EAA00AKN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Atnmbb+P9m2x82jmNM6pVzs9bHp46r1835V+Nc4lAF3M",
+        "segmentId": "GmEiZ6JIgmPYup4v",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO50LB 23KG AND62LI 158LCM",
+            "count": 0,
+            "description": [
+             "Up to 50 lb/23 kg",
+             "Up to 62 li/158 lcm"
+            ],
+            "subcode": "0GO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "MUSICAL INSTRUMENTS",
+            "count": 0,
+            "subcode": "0F2"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ARCHERY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Archery Equipment"
+            ],
+            "subcode": "0FO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "BOWLING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Bowling Equipment"
+            ],
+            "subcode": "0FS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "FISHING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Fishing Equipment"
+            ],
+            "subcode": "0D6"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "GOLF EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Golf Equipment"
+            ],
+            "subcode": "0DC"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "HOCKEY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Hockey Equipment"
+            ],
+            "subcode": "0F0"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKATEBOARD",
+            "count": 0,
+            "description": [
+             "Skateboard"
+            ],
+            "subcode": "0IS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Ski Equipment"
+            ],
+            "subcode": "0DD"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "WATER SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Water Ski Equipment"
+            ],
+            "subcode": "0G2"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD551.63",
+      "saleFareTotal": "USD551.63",
+      "saleTaxTotal": "USD52.37",
+      "saleTotal": "USD604.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD41.37"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO UA ATL 551.63EAA00AKN USD 551.63 END ZP SFO XT 41.37US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-07-08T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
