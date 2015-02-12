@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc overview
- * @name angularjsGruntExampleApp
+ * @name smartFlightsApp
  * @description
- * # angularjsGruntExampleApp
+ * # smartFlightsApp
  *
  * Main module of the application.
  */
@@ -16,7 +16,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
